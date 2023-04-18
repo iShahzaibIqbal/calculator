@@ -27,7 +27,7 @@ function App() {
     <div>
       <div className="container">
         <h1>Calculator</h1>
-        <input type="text" className='inp' value={val} onChange={(e)=>change(STring.toString(e.value))}/>
+        <input type="text" className='inp' value={val} onChange={(e)=>change((e.target.value))}/>
         <div className="row">
           <button className='btn' onClick={calculte}>7</button>
           <button className='btn' onClick={calculte}>8</button>
